@@ -1,7 +1,19 @@
 * {
   scroll-behavior: smooth;
 }
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+.acontacto{
+  color: white;
+}
+.acontacto:hover{
 
+  color: white;
+}
 .carousel-item
 {
 
@@ -9,6 +21,10 @@
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   background-size: cover;
+}
+.rayiya{
+  padding-bottom: 30px;
+  display: inline-block;
 }
 
 .carousel-caption
@@ -45,6 +61,10 @@
   margin-top: 15px;
   border-radius: 40px;
  
+}
+.carousel-control-prev, .carousel-control-next {
+  
+  bottom: -25%;
 }
 
 /* menu */
@@ -210,28 +230,32 @@
 .containterpreguntas
 {
   width: 100%;
-  height: 150vh;
+  height: fit-content;
   background-color: #E2E2E2;
 }
+
 
 .titulopreguntas
 {
   text-align: center;
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 section{
 
   width: 100%;
-  height: 150vh;
+  height: fit-content;
   background-color: #E2E2E2;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .containeracordion
 {
   width: 100%;
+  height: fit-content;
   max-width: 80rem;
   margin: 0 auto;
   padding: 0 1.5rem;
@@ -404,7 +428,7 @@ section{
   
    .carousel-caption
    {
-     bottom: 40%;
+     bottom: 20%;
    }
  
    .logoromel
@@ -412,7 +436,9 @@ section{
    width: 190px;
    height: 100px;
  }
-
+ .rayita{
+  display: none;
+}
 .carousel-caption h5
 {
   font-size: 45px;
@@ -436,65 +462,15 @@ section{
   color: #0064AC;
   margin-top: 15px;
   border-radius: 40px;
+  font-size: 20px;
   
 }
 
  }
-/* ipad */
-@media screen and (max-width: 900px)
-{
- .navbar-nav.ml-auto
- {
-   background: rgba(0,0,0,0.5);
- }
- .navbar-toggler
- {
-   padding: 1px 5px;
-   font-size: 18px;
-   line-height: 0.3;
-   background: #fff;
- }
-  .carousel-caption
-  {
-    bottom: 35%;
-  }
-
-  .logoromel
-{
-  width: 190px;
-  height: 100px;
-}
-
-.carousel-caption h5
-{
- font-size: 35px;
- font-weight: bold;
- font-family: Arial, Helvetica, sans-serif;
-}
-
-.carousel-caption p 
-{
- width: 100%;
- margin: auto;
- font-size: 20px;
-
-}
-
-.carousel-caption a
-{
- background: #fff;
- padding: 10px 30px;
- display: inline-block;
- color: #0064AC;
- margin-top: 15px;
- border-radius: 40px;
-
-}
-
-}
 
 
-@media screen and (max-width: 767px){
+
+@media screen and (max-width: 768px){
  
   .navbar-nav.ml-auto
   {
@@ -544,6 +520,9 @@ section{
   width: 200px;
   height: 100px;
 }
+
+
+
 
 }
  
@@ -690,7 +669,154 @@ h3{
   width: 100%;
 }
 
+
 }
+
+
+ /* iphone x */
+ @media screen and (max-width: 375px)
+ {
+ 
+ 
+   .navbar-nav.ml-auto
+   {
+     background: rgba(0,0,0,0.5);
+   }
+   .navbar-toggler
+   {
+     padding: 1px 5px;
+     font-size: 18px;
+     line-height: 0.3;
+     background: #fff;
+   }
+ 
+   .carousel-caption
+   {
+     bottom: 17%;
+   }
+ 
+   .logoromel
+ {
+   width: 150px;
+   height: 70px;
+ }
+ 
+ .carousel-caption h5
+ {
+ font-size: 25px;
+ font-weight: bold;
+ font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ .carousel-caption p 
+ {
+ width: 100%;
+ margin: auto;
+ font-size: 10px;
+ 
+ }
+ 
+ .carousel-caption a
+ {
+ background: #fff;
+ padding: 10px 30px;
+ display: inline-block;
+ color: #0064AC;
+ margin-top: 15px;
+ border-radius: 40px;
+ 
+ }
+ 
+ .carousel-item
+ {
+   min-height: 300px;
+   background: no-repeat center center scroll;
+   -webkit-background-size: cover;
+   background-size: cover;
+ }
+ .rayita{
+   display: none;
+ }
+ 
+ .containerAboutme{
+ 
+   display: flex;
+   padding-top: 50px;
+   flex-wrap: wrap;
+   flex-direction: column;
+ 
+ }
+ .imagenromel{
+   width: 100%;
+ }
+ 
+ .romelimagenn{
+   width: 100%;
+   height: 300px;
+ }
+ 
+ h1{
+   font-size: 25px;
+ }
+ h2{
+   font-size: 23px;
+ }
+ 
+ h3{
+   font-size: 20px;
+ }
+ 
+ .iconoayudar{
+   width: 150px;
+   height: 150px;
+ }
+ .descripcion{
+   width: 100%;
+   height: 300px;
+ }
+ 
+ .containerAgendatucita{
+   display: flex;
+   padding-top: 50px;
+   flex-wrap: wrap;
+   flex-direction: column;
+ }
+ 
+ .pasosagendar{
+   width: 100%;
+   padding-left: 20px;
+   align-content: unset;
+   
+ }
+ .widget{
+   width: 100%;
+   height: 500px;
+  
+ }
+ 
+ 
+ .containercontacto
+ {
+   width: 100%;
+   height: 1000px;
+   background-color: #0064AC;
+   color: white;
+   display: flex;
+   padding: 50px;
+   flex-direction: column;
+ 
+ 
+ }
+ 
+ .dondeencontrarme{
+   width: 100%;
+ }
+ 
+ .redessociales{
+   width: 100%;
+ }
+
+ }
  
 
 
