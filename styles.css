@@ -155,6 +155,8 @@
   padding-top: 20px;
 }
 
+/* agenda tu cita */
+
 .containerAgendatucita
 {
   text-align: center;
@@ -570,7 +572,7 @@ section{
   .logoromel
 {
   width: 150px;
-  height: 80px;
+  height: 75px;
 }
 
 .carousel-caption h5
@@ -606,6 +608,9 @@ border-radius: 40px;
   -webkit-background-size: cover;
   background-size: cover;
 }
+.rayita{
+  display: none;
+}
 
 .containerAboutme{
 
@@ -615,11 +620,76 @@ border-radius: 40px;
   flex-direction: column;
 
 }
+.imagenromel{
+  width: 100%;
+}
 
 .romelimagenn{
-  width: 411px;
+  width: 100%;
   height: 350px;
 }
+
+h1{
+  font-size: 25px;
+}
+h2{
+  font-size: 23px;
+}
+
+h3{
+  font-size: 20px;
+}
+
+.iconoayudar{
+  width: 150px;
+  height: 150px;
+}
+.descripcion{
+  width: 100%;
+  height: 300px;
+}
+
+.containerAgendatucita{
+  display: flex;
+  padding-top: 50px;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.pasosagendar{
+  width: 100%;
+  padding-left: 20px;
+  align-content: unset;
+  
+}
+.widget{
+  width: 100%;
+  height: 500px;
+ 
+}
+
+
+.containercontacto
+{
+  width: 100%;
+  height: 1000px;
+  background-color: #0064AC;
+  color: white;
+  display: flex;
+  padding: 50px;
+  flex-direction: column;
+
+
+}
+
+.dondeencontrarme{
+  width: 100%;
+}
+
+.redessociales{
+  width: 100%;
+}
+
 }
  
 
