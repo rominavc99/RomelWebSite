@@ -817,8 +817,174 @@ h3{
  }
 
  }
+
+ /* iphone x */
+ @media screen and (max-width: 360px)
+ {
+ 
+ 
+   .navbar-nav.ml-auto
+   {
+     background: rgba(0,0,0,0.5);
+   }
+   .navbar-toggler
+   {
+     padding: 1px 5px;
+     font-size: 18px;
+     line-height: 0.3;
+     background: #fff;
+   }
+ 
+   .carousel-caption
+   {
+     bottom: 0%;
+   }
+ 
+   .logoromel
+ {
+   width: 150px;
+   height: 65px;
+ }
+ 
+ .carousel-caption h5
+ {
+ font-size: 20px;
+ font-weight: bold;
+ font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ .carousel-caption p 
+ {
+ width: 100%;
+ margin: auto;
+ font-size: 10px;
+ 
+ }
+ 
+ .carousel-caption a
+ {
+  background: #fff;
+  padding: 6px 12px;
+  display: inline-block;
+  color: #0064AC;
+  margin-top: 15px;
+  border-radius: 40px;
+  width: 80px;
+  height: 30px;
+  font-size: 10px;
+  white-space: nowrap;;
+ 
+ }
+ 
+ .carousel-item
+ {
+   min-height: 213px;
+   background: no-repeat center center scroll;
+   -webkit-background-size: cover;
+   background-size: cover;
+ }
+ .rayita{
+   display: none;
+ }
+ 
+ .containerAboutme{
+ 
+   display: flex;
+   padding-top: 50px;
+   flex-wrap: wrap;
+   flex-direction: column;
+ 
+ }
+ .imagenromel{
+   width: 100%;
+ }
+ 
+ .romelimagenn{
+   width: 100%;
+   height: 250px;
+ }
+ 
+ h1{
+   font-size: 20px;
+ }
+ h2{
+   font-size: 18px;
+ }
+ 
+ h3{
+   font-size: 15px;
+ }
+ h4{
+   font-size:15px;
+ }
+ 
+ 
+ .iconoayudar{
+   width: 100px;
+   height: 100px;
+ }
+ .descripcion{
+   width: 100%;
+   height: 300px;
+ }
+ .paso{
+   height: 80px;
+   width: 80px;
+ }
+ 
+ .containerAgendatucita{
+   display: flex;
+   padding-top: 50px;
+   flex-wrap: wrap;
+   flex-direction: column;
+ }
+ 
+ .pasosagendar{
+   width: 100%;
+   padding-left: 20px;
+   align-content: unset;
+   
+ }
+ .widget{
+   width: 100%;
+   height: 500px;
+  
+ }
+ 
+ 
+ .containercontacto
+ {
+   width: 100%;
+   height: 1000px;
+   background-color: #0064AC;
+   color: white;
+   display: flex;
+   padding: 50px;
+   flex-direction: column;
+ 
+ 
+ }
+ 
+ .dondeencontrarme{
+   width: 100%;
+ }
+ 
+ .redessociales{
+   width: 100%;
+ }
+
+ .accordion-link {
+  font-size: 1.3rem;
  
 
+ }
+ .answer p {
+  color: black;
+  font-size: 1rem;
+  padding: 2rem;
+}
+ 
+ }
 
 
  
