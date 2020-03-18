@@ -1,6 +1,17 @@
 * {
   scroll-behavior: smooth;
 }
+.tituloA{
+  color: #0064AC;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+h1{
+  font-weight: bold;
+}
+
+
 a{
   text-decoration: none;
 }
@@ -158,7 +169,7 @@ a:hover{
 }
 .acercademititulo
 {
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 .textodescripcion
@@ -220,6 +231,10 @@ a:hover{
   align-items: center;
 }
 
+.tituloagendar{
+  color: #0064AC;
+  font-weight: bold;
+}
 /* faq */
 
 .containterpreguntas
@@ -414,6 +429,9 @@ section{
   padding: 20px;
 }
 
+.tituloA{
+  color: #0064AC;
+}
 
 
 
@@ -460,6 +478,11 @@ section{
   font-size: 20px;
   
 }
+
+.tituloA{
+  color: #0064AC;
+}
+
 
  }
 
@@ -515,6 +538,11 @@ section{
   width: 200px;
   height: 100px;
 }
+
+.tituloA{
+  color: #0064AC;
+}
+
 
 }
 
@@ -662,7 +690,10 @@ section{
  .redessociales{
    width: 100%;
  }
- 
+ .tituloA{
+  color: #0064AC;
+}
+
  
  }
  
@@ -815,6 +846,9 @@ h3{
 .carousel-control-next, .carousel-control-prev {
   height: 275px;
 }
+.tituloA{
+  color: #0064AC;
+}
 
 }
 
@@ -966,6 +1000,9 @@ h3{
  .redessociales{
    width: 100%;
  }
+ .tituloA{
+  color: #0064AC;
+}
 
  }
 
@@ -1132,6 +1169,10 @@ h3{
   font-size: 1rem;
   padding: 2rem;
 }
+.tituloA{
+  color: #0064AC;
+}
+
  
  }
 
