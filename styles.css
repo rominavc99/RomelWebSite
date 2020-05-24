@@ -34,11 +34,14 @@ a:hover{
   background-size: cover;
 }
 
-
+.w-100 {
+  width: 100%!important;
+  height:  -webkit-fill-available;
+}
 
 .carousel-caption
 {
-  bottom: 30%;
+  bottom: 35%;
 }
 
 .fondoazul
@@ -171,14 +174,18 @@ a:hover{
 {
   padding-top: 100px;
 }
+.textoDescripcion1{
+  text-align: left;
+  margin: 20px 20px;
+}
 
 .textodescripcion
 {
-  font-size: 20px;
+  font-size: 17px;
   font-family: Arial, Helvetica, sans-serif;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 20px;
+  
 }
 
 /* agenda tu cita */
@@ -205,16 +212,14 @@ a:hover{
 }
 .paso
 {
-  display: flex;
+  
   width: 100px;
   height: 100px;
-  border-radius: 100px;
-  background-color: #00ABBF;
   margin-top: 50px;
   margin-bottom: 50x;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
+ 
+  
+  
   
 }
 .pasodescripcion
@@ -227,7 +232,7 @@ a:hover{
 .pasoscontainer
 {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 }
 
@@ -349,26 +354,49 @@ section{
 }
  
 
-/* articulos de interes */
+/* educacion */
 
 .containerarticulos
 {
+  padding-top: 50px;
+  text-align: center;
   width: 100%;
   height: 500px;
-  display: flex;
-  justify-content: center;
-  justify-content: space-evenly;
-  padding-top: 200px;
-  padding-bottom: 50px;
+  
 
+}
+
+.education{
+  display: flex;
+  padding-top: 50px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .articulo
 {
-  width: 200px;
-  height: 250px;
-  background-color: blue;
+  width: 250px;
+  height: 150px;
+  border-radius: 15px;
+  background-color: rgb(29, 117, 180);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
 }
+
+
+.textoEdcucacion{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:30px;
+  font-weight: bold;
+}
+
+
+
+
 
 /* contacto */
 
@@ -482,7 +510,10 @@ section{
 .tituloA{
   color: #0064AC;
 }
-
+.w-100 {
+  width: 100%!important;
+  height: unset;
+}
 
  }
 
@@ -543,6 +574,10 @@ section{
   color: #0064AC;
 }
 
+.w-100 {
+  width: 100%!important;
+  height: unset;
+}
 
 }
 
@@ -692,6 +727,10 @@ section{
  }
  .tituloA{
   color: #0064AC;
+}
+.w-100 {
+  width: 100%!important;
+  height: unset;
 }
 
  
@@ -849,6 +888,10 @@ h3{
 .tituloA{
   color: #0064AC;
 }
+.w-100 {
+  width: 100%!important;
+  height: unset;
+}
 
 }
 
@@ -1003,6 +1046,11 @@ h3{
  .tituloA{
   color: #0064AC;
 }
+.w-100 {
+  width: 100%!important;
+  height: unset;
+}
+
 
  }
 
@@ -1171,6 +1219,10 @@ h3{
 }
 .tituloA{
   color: #0064AC;
+}
+.w-100 {
+  width: 100%!important;
+  height: unset;
 }
 
  
